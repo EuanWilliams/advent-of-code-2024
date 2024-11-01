@@ -1,11 +1,14 @@
 //
 // Euan Williams: 01/11/2024
 //
-// Coleection of functions for manipulating strings
+// Collection of functions for manipulating strings
 //
 #include <string>
 #include <vector>
 
+
+
+// Finds the location(s) of a given delimiter within a string.
 std::vector<int> find_location_of_delimiter(std::string line, char delimiter)
 {
   std::vector<int> delimiter_locations = {};

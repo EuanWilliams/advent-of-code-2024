@@ -3,7 +3,6 @@
 //
 // Day one, phase one of Advent of Code 2024
 //
-
 #include <iostream>
 
 #include "../src/storage.h"
